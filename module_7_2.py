@@ -10,6 +10,7 @@ def custom_write(file_name, strings):
     for i in strings:
         values.append(i)
     strings_positions = dict(zip(keys, values))
+    file.close()
     return strings_positions
 
 info = [
